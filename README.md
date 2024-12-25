@@ -28,8 +28,9 @@ cookiecutter https://github.com/alangrosso/plantilla-ds.git
 # Ejecutar desde local
 ## Clonar repo
 git clone https://github.com/alangrosso/plantilla-ds.git
-cookiecutter <Ruta de Archivo>
 ## Ejecutar
+cookiecutter <Ruta de Archivo "cookiecutter.json">
+cd plantilla-ds
 cookiecutter .
 cookiecutter --verbose .
 cookiecutter --verbose --debug-file debug.log .
