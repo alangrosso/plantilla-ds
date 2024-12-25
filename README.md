@@ -26,7 +26,10 @@ cookiecutter --verbose .
 cookiecutter --verbose --debug-file debug.log .
 cookiecutter --verbose --overwrite-if-exists .
 
-# Ejecutar desde git
+# Ejecutar
+## Desde dev
+cookiecutter https://github.com/alangrosso/plantilla-ds --checkout dev
+## Desde main
 cookiecutter https://github.com/alangrosso/plantilla-ds.git
 
 # Verificar directorio y archivos creados
