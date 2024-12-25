@@ -18,7 +18,7 @@ pip install jinja2-time
 
 # Ejecutar desde local
 ## Clonar repo
-git clone https://github.com/alangrosso/plantilla.git
+git clone https://github.com/alangrosso/plantilla-ds.git
 cookiecutter <Ruta de Archivo>
 ## Ejecutar
 cookiecutter .
@@ -27,7 +27,7 @@ cookiecutter --verbose --debug-file debug.log .
 cookiecutter --verbose --overwrite-if-exists .
 
 # Ejecutar desde git
-cookiecutter https://github.com/alangrosso/plantilla.git
+cookiecutter https://github.com/alangrosso/plantilla-ds.git
 
 # Verificar directorio y archivos creados
 ```
