@@ -1,0 +1,25 @@
+{
+    "project_title": "",
+    "project_management": "",
+    "project_area": "",
+    "project_company": "",
+    "project_product": "",
+    "project_type": [
+        "Regression",
+        "Classification",
+        "Time Series",
+        "Segmentation",
+        "Otro"
+    ],
+    "project_short_description": "",
+    "author_name": "",
+    "user_name": "Usuario | Alias",
+    "email": "",
+    "version": "1.0.0",
+    "python_version": "",
+    "__project_slug": "{{ cookiecutter.project_product|default(cookiecutter.project_title, true) | lower | replace(' ', '_') | replace('-', '_') | replace('ñ', 'n') }}",
+    "__module_name": "{{ cookiecutter.project_type.lower().replace(' ', '_').replace('-', '_').replace('ñ', 'n') }}",
+    "_extensions": [
+        "jinja2_time.TimeExtension"
+    ]    
+}
