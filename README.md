@@ -7,14 +7,23 @@ Crear una plantilla para proyectos standar de Data Science.
 ## **Instrucciones**
 
 ```s
-# Dirigirse a directorio de trabajo en local
-cd TU/DIRECTORIO/DE/TRABAJO
-
 # Activar ambiente virtual
 source AMBIENTE_VIRTUAL/Scripts/activate
 
-# Instalar (para actualizar fecha automáticamente)
+# Dirigirse a directorio de trabajo en local
+cd TU/DIRECTORIO/DE/TRABAJO
+
+# Verificar librerias y paquetes necesarios para el proyecto
+pip list | grep NOMBRE_LIBRERIA
+
+# Para actualizar fecha automáticamente
 pip install jinja2-time
+
+# Ejecutar desde repo
+## Desde dev
+cookiecutter https://github.com/alangrosso/plantilla-ds --checkout dev
+## Desde main
+cookiecutter https://github.com/alangrosso/plantilla-ds.git
 
 # Ejecutar desde local
 ## Clonar repo
@@ -26,13 +35,8 @@ cookiecutter --verbose .
 cookiecutter --verbose --debug-file debug.log .
 cookiecutter --verbose --overwrite-if-exists .
 
-# Ejecutar
-## Desde dev
-cookiecutter https://github.com/alangrosso/plantilla-ds --checkout dev
-## Desde main
-cookiecutter https://github.com/alangrosso/plantilla-ds.git
-
 # Verificar directorio y archivos creados
+# Modificar de acuerdo a caso de uso
 ```
 
 ## **Contacto**
