@@ -19,14 +19,14 @@ pip list | grep NOMBRE_LIBRERIA
 # Para actualizar fecha automáticamente
 pip install jinja2-time
 
-# Ejecutar desde repo
-## Desde dev
+# Ejecutar desde Repo
+## Branch dev
 cookiecutter https://github.com/alangrosso/plantilla-ds --checkout dev
-## Desde main
+## Branch main
 cookiecutter https://github.com/alangrosso/plantilla-ds.git
 
 # Ejecutar desde local
-## Clonar repo
+## Clonar Repo
 git clone https://github.com/alangrosso/plantilla-ds.git
 ## Ejecutar
 cookiecutter <Ruta de Archivo "cookiecutter.json">
